@@ -29,8 +29,16 @@ body {
 }
 
 .portrait {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
     border: 1px solid lightslategray;
     border-radius: 50%;
+}
+
+#portrait-img {
+    margin: auto;
+    width: 35px;
 }
 
 #subtitle {
