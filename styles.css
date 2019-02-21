@@ -24,12 +24,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     font-weight: 700;
+}
+
+.portrait {
+    border: 1px solid lightslategray;
+    border-radius: 50%;
 }
 
 #subtitle {
     font-weight: 500;
     color: gray;
+    letter-spacing: 1.2px;
 }
 
 .content {
@@ -47,6 +54,7 @@ body {
 .row .price {
     font-weight: 700;
     font-size: 1.2rem;
+    color: black;
 }
 
 .total {
