@@ -34,6 +34,11 @@ body {
     padding: 10px;
     border: 1px solid lightslategray;
     border-radius: 50%;
+    transition: box-shadow 0.3s ease;
+}
+
+.portrait:hover {
+    box-shadow: 0px 0px 0px 5px grey;
 }
 
 #portrait-img {
