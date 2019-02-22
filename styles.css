@@ -3,6 +3,7 @@ body {
     background-color: #149F85;
     font-family: 'Roboto', sans-serif;
     color: #333;
+    padding: 10px;
 }
 
 .container {
@@ -20,12 +21,25 @@ body {
     background-size: 100%;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     .container {
         padding: 40px 40px;
-        background-position-y: 400px;
+        background-position-y: 420px;
+        word-wrap: break-word;
     }
 }
+
+@media only screen and (max-width: 400px){
+    .container {
+        padding: 40px 20px;
+        background-position-y: 420px;
+    }
+
+    .content {
+        font-size: 0.9rem;
+    }
+}
+
 .title {
     display: flex;
     flex-direction: row;
