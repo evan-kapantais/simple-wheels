@@ -33,6 +33,8 @@ body {
     .container {
         padding: 40px 20px;
         background-position-y: 420px;
+        top: 1em;
+        margin-bottom: 1em;
     }
 
     .content {
